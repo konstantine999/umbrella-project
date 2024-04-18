@@ -40,7 +40,7 @@ const Product = ({ product }: PageProps) => {
                     Description: {product.name}
                 </p>
                 <span>Price: {product.price} $</span>
-                <div className="flex gap-4 mb-5">
+                <div className="flex gap-4 mb-5 flex-wrap">
                     Categories:
                     {product.categories.map((category: any) => {
                         return (
